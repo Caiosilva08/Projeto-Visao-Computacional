@@ -29,7 +29,7 @@ Para a execução desse projeto foi nos fornecido um dataset composto pelas 3 cl
 - PyTorch.
 
   Instalação no Ubuntu com GPU.
-  Para instalação no Windows ou sem GPU, consultar pytorch.org.
+  Para instalação no Windows ou sem GPU, consultar [pytorch.org](https://pytorch.org).
   
   $ conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
 
