@@ -9,3 +9,28 @@ Finalmente, implementamos o algoritmo de classificação usando o método dos k-
 
 ## Execução:
 Para a execução desse projeto foi nos fornecido um dataset composto pelas 3 classes que se encontrava localmente em nossas máquinas e que durante a execução do algoritmo os mesmos eram importados para serem trabalhados no *Jupyter Notebook*. Logo para a replicação do projeto é necessário que você possua os mesmos em sua máquina. Após isso configure manualmente a parte do código onde é importado os arquivos para o treinamento e teste.
+
+## Configurando ambiente de desenvolvimento:
+
+- Instalar o Anaconda Distribution
+
+- Criar um ambiente de execução virtual
+
+  $ conda create -n sin393-2022-py38 python=3.8
+
+  $ conda activate sin393-2022-py38
+
+- Instalar as bibliotecas necessárias
+
+  $ conda install numpy scikit-image scikit-learn matplotlib pandas seaborn notebook
+
+  $ pip install opencv-python
+
+- PyTorch.
+
+  Instalação no Ubuntu com GPU.
+  Para instalação no Windows ou sem GPU, consultar pytorch.org.
+  
+  $ conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
+
+  $ pip install -U albumentations
